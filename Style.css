@@ -15,7 +15,7 @@ body{
 }
 
 section{
-  padding: 100px; 10%;
+  padding: 100px 10%;
 }
 
 h1,h2{
@@ -114,96 +114,13 @@ h1,h2{
 
 /* ================= ABOUT ================= */
 
-.about{
-  display:flex;
-  gap:80px;
-  align-items:center;
-}
-
 .about img{
   width:400px;
   border-radius:8px;
 }
 
-.about-content h2{
-  margin-bottom:30px;
-  font-size:40px;
-}
-
-.about-content p{
-  margin-bottom:20px;
-  color:#ccc;
-  font-size: large;
-}
-
-/* ================= EDUCATION & EXPERIENCE ================= */
-
-.timeline-section h2{
-  text-align:center;
-  margin-bottom:60px;
-  font-size:40px;
-}
-
-.timeline{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:60px;
-}
-
-.timeline-column p{
-  margin-bottom:20px;
-  color:#fbbf24;
-  font-family:'Montserrat', sans-serif; 
-}
-
-.timeline-item{
-  background:#141820;
-  padding:25px;
-  margin-bottom:20px;
-  border-radius:8px;
-  transition:0.3s;
-}
-
-.timeline-item:hover{
-  background:#1c212c;
-}
-
-.timeline-item h4{
-  margin-bottom:5px;
-}
-
-.timeline-item span{
-  font-size:15px;
-  color:#ffffff;
-}
-
 /* ================= SKILLS ================= */
 
-/* .skills h2{
-  text-align:center;
-  margin-bottom:60px;
-  font-size:40px;
-}
-
-.skills-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:30px;
-}
-
-.skill{
-  padding:30px;
-  background:#141820;
-  border-radius:10px;
-  text-align:center;
-  transition:0.3s;
-}
-
-.skill:hover{
-  transform:translateY(-10px);
-  background:#1c212c;
-} */
- /* Reset */
 
 /* Small Label */
 .section-label {
@@ -258,26 +175,6 @@ h1,h2{
   }
 }
 
-
-/* ================= RESUME ================= */
-
-.resume{
-  text-align:center;
-}
-
-.resume h2{
-  font-size:40px;
-  margin-bottom:30px;
-}
-
-.resume-box{
-  background:#141820;
-  padding:40px;
-  border-radius:10px;
-  max-width:600px;
-  margin:auto;
-}
-
 .btn{
   display:inline-block;
   padding:15px 40px;
@@ -288,38 +185,8 @@ h1,h2{
   letter-spacing:2px;
   transition:0.3s;
 }
-.btn1{
-     display:inline-block;
-  padding:15px 40px;
-  background:#ffffff;
-  color:#000;
-  text-decoration:none;
-  font-weight:500;
-  letter-spacing:2px;
-  transition:0.3s;
-}
-.btn1:hover{
-   background-color:#f2c078 ;
-   color: black;
-}
 .btn:hover{
   background:#fff;
-}
-
-/* ================= CONTACT ================= */
-
-.contact{
-  text-align:center;
-}
-
-.contact h2{
-  font-size:40px;
-  margin-bottom:30px;
-}
-
-.contact p{
-  color:#ccc;
-  margin-bottom:20px;
 }
 
 /* ================= FOOTER ================= */
@@ -360,32 +227,7 @@ footer{
   }
 
 }
-.hire{
-  text-align:center;
-}
 
-.hire h2{
-  font-size:40px;
-  margin-bottom:20px;
-}
-
-.hire p{
-  color:#ccc;
-  margin-bottom:30px;
-}
-
-.hire-box{
-  background:#141820;
-  padding:40px;
-  border-radius:10px;
-  max-width:600px;
-  margin:auto;
-  transition:0.3s;
-}
-
-.hire-box:hover{
-  background:#1c212c;
-}
 .about-container{
   display:flex;
   align-items:center;
@@ -430,61 +272,7 @@ footer{
   flex-wrap:wrap;
 }
 
-.hire-box, .contact-box{
-  flex:1;
-  min-width:250px;
-  background:#141820;
-  padding:30px;
-  border-radius:10px;
-  transition:0.3s;
-}
-
-.hire-box:hover, .contact-box:hover{
-  background:#1c212c;
-}
-
-.hire-box h3, .contact-box h3{
-  margin-bottom:15px;
-  color:#f2c078;
-}
-
-.hire-box p, .contact-box p{
-  color:#ccc;
-}
-.social a{
-color:#5b5b5c
-}
 /* ================= MY WORKS ================= */
-
-.works{
-  padding:80px 10%;
-  
-}
-
-.works h2{
-  font-size:40px;
-  margin-bottom:50px;
-}
-
-.works-container{
-  display:flex;
-  justify-content:space-between;
-  gap:30px;
-  flex-wrap:wrap;
-}
-
-.work-box{
-  flex:1;
-  min-width:250px;
-  background:#141820;
-  padding:20px;
-  border-radius:10px;
-  transition:0.3s;
-}
-
-.work-box:hover{
-  background:#1c212c;
-}
 
 .work-box img{
   width:100%;
