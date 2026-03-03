@@ -288,8 +288,12 @@ footer{
 .work-box p{
   color:#ccc;
 }
-.about-text span{
+.about-text h3{
   color: #fbbf24;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 8px;
+  
 }
 /* Project Section */
 .project-section {
@@ -603,3 +607,4 @@ footer{
     font-size: 32px;
   }
 }
+
